@@ -31,7 +31,7 @@ const describeRecord = async (gTLD, RR) => {
     .then(result => {
       const records = result.DomainRecords.Record
       for (let index in records) {
-        if (records[index].RR == RR) {
+        if (records[index].RR === RR) {
           recordExists = true
           record = records[index]
         }

@@ -1,4 +1,4 @@
 module.exports = {
-  gTLD: 'test.cn',
+  gTLD: 'test.com',
   RRs: ['test', 'test1'],
 }
