@@ -1,4 +1,4 @@
-# autodns-ali
+# ddns-aliyun
 
 Automatically resolve native IP to AliYun DNS record.
 
@@ -13,8 +13,8 @@ Automatically resolve native IP to AliYun DNS record.
 · Quick start
 
 ```bash
-git clone https://github.com/zzzue/autodns-ali.git
-cd autodns-ali
+git clone https://github.com/zzzue/ddns-aliyun.git
+cd ddns-aliyun
 npm i
 node index.js
 ```
