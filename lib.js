@@ -21,7 +21,8 @@ const describeRecord = async (gTLD, RR) => {
   let record = {}
   const params = {
     "DomainName": gTLD,
-    "RRKeyWord": RR
+    "RRKeyWord": RR,
+    "TypeKeyWord": 'A'
   }
   const requestOption = {
     method: 'POST'
